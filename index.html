@@ -108,7 +108,7 @@
 <body>
 	<!-- 标题 -->
 	<div class="headline" id="headline">
-       <span>哥哥选惩罚</span>
+       <span>哥哥自愿选惩罚系统</span>
     </div>	
 	<!-- 名单面板 -->
     <div class="wrapper" id="panel">
@@ -198,7 +198,7 @@
 			clearInterval(timer);//清空计时器，停止
 			// 找到此时的元素
 			var active = document.getElementsByClassName('active')[0];
-			lucking.children[0].innerText = "幸运儿：" + active.innerText;//往lucking下的p标签添加内容，即显示名字
+			lucking.children[0].innerText = "恭喜哥哥选中了：" + active.innerText;//往lucking下的p标签添加内容，即显示名字
 			showEvent();//调用控制事件					            
         })
     }
